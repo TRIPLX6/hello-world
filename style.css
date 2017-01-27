@@ -9,3 +9,8 @@
 #rouge {
 	background-color:red;
 }
+
+@viewport {
+   width: device-width;
+   zoom: 1; 
+}
