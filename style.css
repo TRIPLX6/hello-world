@@ -1,3 +1,6 @@
+
+
+
 #bleu {
 	background-color:blue;
 }
@@ -9,6 +12,9 @@
 #rouge {
 	background-color:red;
 }
+
+
+
 
 @viewport {
    width: device-width;
@@ -85,4 +91,14 @@ button {
   /* Cette marge représente approximativement le même espace
      que celui entre les étiquettes et les champs textuels */
   margin-left: .5em;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+ 
+	#bleu {
+		background-color:green;
+	}
+	#rouge {
+		background-color:orange;
+	}
 }
