@@ -6,8 +6,6 @@
 	<title>M4105C : Un super module</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="img/favicon.ico" />
-	<link rel="apple-touch-icon" href="img/favicon.ico"/>
-	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="img/favicon.ico">
 	
 </head>
 <body>
@@ -39,6 +37,39 @@
 <article>
 	<h3>Bogoss</h3>
 	 <img src="img/calais.jpg" alt="calais"> 
+
+
+
+	<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+    <div>
+	<label for="datenai">Date de naissance :</label>
+	<input type="date" id="date"/>
+    </div>
+    <div>
+	<label for="age">Age :</label>
+	<input type="number" id="age"/>
+    </div>
+    <div>
+        <label for="courriel">Email :</label>
+        <input type="email" id="courriel" />
+    </div>
+    <div>
+	<label for="facebook">Facebook :</label>
+	<textarea id="message" name="lien_fb"> </textarea>
+    </div>
+    <div>
+        <label for="telephone">Telephone :</label>
+        <input type="tel" id="tel" />
+    </div>
+    
+    <div class="button">
+        <button type="submit">Envoyer votre message</button>
+    </div>
+</form>
 </article>
 
 
