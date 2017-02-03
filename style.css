@@ -46,7 +46,7 @@ input, textarea {
   font: 1em sans-serif;
 
   /* Pour donner la même dimension à tous les champs textuels */
-  width: 100%;
+  width: 200px;
 
   -moz-box-sizing: border-box;
        box-sizing: border-box;
