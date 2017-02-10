@@ -91,3 +91,10 @@ button {
 		background-color:orange;
 	}
 }
+
+
+ img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
