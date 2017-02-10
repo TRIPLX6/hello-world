@@ -1,11 +1,15 @@
-body{
+*{
+	color:white;
+}
+
+p{
 	font-size:1rem;
 }
 
 h1 {
 	font-size:8vw;
 }
-
+/*
 #bleu {
 	background-color:blue;
 }
@@ -17,8 +21,7 @@ h1 {
 #rouge {
 	background-color:red;
 }
-
-
+*/
 img{
 	max-width:100%;
 	height:auto;
@@ -88,7 +91,7 @@ button {
      que celui entre les étiquettes et les champs textuels */
   margin-left: .5em;
 }
-
+/*
 @media screen and (min-width: 200px) and (max-width: 640px) {
  
 	#bleu {
@@ -98,12 +101,18 @@ button {
 		background-color:orange;
 	}
 }
+*/
 
-
- img {
+ #iut, #calais {
     display: block;
     margin: auto;
     width: 50%;
+}
+
+body{
+	background-image:url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 
 /******************TABLEAU*************************/
@@ -118,7 +127,7 @@ button {
 
 
 table {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
 }
 th, td {
