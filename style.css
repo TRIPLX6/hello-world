@@ -109,7 +109,7 @@ button {
 /******************TABLEAU*************************/
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
-	table, th, td {
+	table, th, td, tbody, tr {
 	    width:100%;
             display:block;
 }
@@ -117,14 +117,18 @@ button {
 }
 
 
-table, th, td {
+table {
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
-    padding: 5px;
+    padding: 5px 0px;
     text-align: left;
     text-align:center;
 }
 
+
+th{
+	background-color:grey;
+}
 
