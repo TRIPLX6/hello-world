@@ -1,3 +1,4 @@
+/*********************POLICE**********************/
 *{
 	color:white;
 }
@@ -9,6 +10,9 @@ p{
 h1 {
 	font-size:8vw;
 }
+
+
+/********************COULEUR DE PARAGRAPHES****************/
 /*
 #bleu {
 	background-color:blue;
@@ -22,12 +26,9 @@ h1 {
 	background-color:red;
 }
 */
-img{
-	max-width:100%;
-	height:auto;
-}
 
 
+/****************FORMULAIRE************************/
 
 form {
   /* Pour le centrer dans la page */
@@ -102,6 +103,14 @@ button {
 	}
 }
 */
+
+/********************IMAGE***************/
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
 
  #iut, #calais {
     display: block;
