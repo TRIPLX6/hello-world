@@ -1,0 +1,273 @@
+/*********************************Le bloc contenant le site********************************/
+*{
+	box-sizing:border-box;
+}
+
+#burger{
+	display:none;
+}
+
+#phone{
+	display:none;
+}
+
+#menu, #rechercher{
+	display:inline-block;
+	vertical-align:top;
+}
+
+#bloc_page{
+	max-width:1000px;
+	width:100%;	
+	margin:auto;
+	/*background-image:url(img/yolo.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:black;*/
+}
+
+#cadre{
+	height:110px; 
+	padding:15px;
+	border-bottom:1px solid black;
+}
+
+#logo{
+	height:80px;
+	display:block;
+	width:15%;
+	float:left;
+}
+
+#bloc{
+	float:left;
+}
+
+a{
+	text-decoration:none;
+}
+
+#bann{
+	display: block;
+	width: 100%;
+	margin-top:8px;
+}
+
+
+
+li.image{
+	display:inline-block;
+	width:15%;
+	margin-left:60px;
+}
+li.image img{
+	max-width:100%;
+}
+
+.liste {
+	margin:0;
+	list-style-type:none;
+	margin-left:2px;
+	float:left;
+}
+
+#hauteur{
+	line-height:80px;
+	float:right;
+}
+
+#element{
+	margin:0;
+}
+
+#swag{
+	width:100%;
+}
+
+
+/*
+ul li{
+	border:1px;
+	background-color:white;
+	opacity:0.70;
+}
+
+ul li p{
+	color:black;
+	margin:5px;
+}*/
+
+#olala{
+	width:100%;
+}
+
+#olala,#gauche{
+	float:left;
+}
+
+iframe{
+	width:100%;
+}
+
+#gauche{
+	width:50%;
+	border-right:1px solid black;
+	padding:15px;
+}
+
+#droite{
+	float:right;
+	width:50%;
+	padding:15px;
+}
+
+#prenom{
+	float:left;
+	margin-right:15px;
+}
+
+#prenom,#nom,#date,#villenai,#courriel,#photo,#message{
+	margin-bottom:15px;
+}
+
+#message{
+	width:100%;
+}
+
+footer.span{
+	border-top:1px solid black;
+}
+
+
+/************************************MEDIA QUERIES*********************************/
+
+@media only screen and (min-width:541px) and (max-width:840px){
+	.liste{
+		display:inline-block;
+		float:none;	
+	}
+	
+	#cadre{
+		border-bottom:none;
+	}
+
+	#cadre img{
+		display : block;
+		margin-left : auto;
+		margin-right : auto ;
+		float:none;
+	}
+
+	#hauteur{
+		float:none;	
+		text-align:center;
+		padding:0px;
+	}
+
+	#menu{
+		width:50%;
+		float:left;
+		text-align:right;
+		padding-right:5px;	
+	}
+
+	#rechercher{
+		width:50%;
+		float:right;
+		text-align:left;
+	}
+	
+	li.image{
+		width:25%;
+		margin-left:15%;
+	}
+	
+	#burger{
+		display:none;
+	}
+
+	#phone{
+		display:none;
+	}
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 540px)
+{
+	.liste{
+		float:left;
+	}	
+	
+	#bloc_page
+	{
+		width: auto;
+		overflow:hidden;
+	}
+
+	li.image{
+		display:block;
+		width:100%;
+		margin:0;
+		
+	}
+	
+	#gauche{
+		width:100%;
+		border:none;
+	}
+
+	#droite{
+		width:100%;
+	}
+
+	input{
+		width:100%;
+	}
+
+	#cadre{
+		border:none;
+	}
+	
+	#bouton{
+		width:100%;
+	}
+
+	#cadre img{
+		display : block;
+		margin-left : auto;
+		margin-right : auto ;
+		float:none;
+	}
+
+	#swag{
+		padding:0;
+	}
+	
+	#bloc{
+		width:100%;
+	}
+
+	#menu,#rechercher{
+		display:inline-block;
+		vertical-align:top;
+		text-align:center;
+		width:100%;
+	}
+	
+	#burger{
+		display:block;
+		float:left;
+	}
+
+	#phone{
+		display:block;
+		width:32px;
+		height:32px;
+		float:right;
+	}
+
+}
+
+
+
